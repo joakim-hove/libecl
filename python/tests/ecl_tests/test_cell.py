@@ -22,7 +22,7 @@ from unittest import skipUnless
 class CellTest(EclTest):
 
     def setUp(self):
-        fk = self.createTestPath('local/ECLIPSE/faarikaal/faarikaal1.EGRID')
+        fk = self.createTestPath('local/ECLIPSE/faarikaal/faarikaal1.egrid')
         self.grid = EclGrid(fk)
         self.cell = self.grid[3455]
         self.actives = [c for c in self.grid if c.active]
