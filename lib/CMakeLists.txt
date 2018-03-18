@@ -325,6 +325,7 @@ foreach (name   ecl_alloc_cpgrid
                 ecl_fault_block_layer
                 ecl_util_path_access
                 ecl_grid_add_nnc
+                ecl_grid_cell_volume
                 ecl_grid_copy
                 ecl_grid_create
                 ecl_grid_DEPTHZ
